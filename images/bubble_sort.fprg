@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jacs.zbc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-02-06 03:21:11 "/>
+        <attribute name="created" value="amFjcy56YmM7WkJDLVAtSkFDUzE7MjAyMC0wMi0wNjsiMTE6NTU6MDYgIjsyNjk4"/>
+        <attribute name="edited" value="amFjcy56YmM7WkJDLVAtSkFDUzE7MjAyMC0wMi0wNjsiMDM6MjE6MTEgIjs2OzI4MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="Start" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="Array"/>
+            <assign variable="n" expression="&quot;length of Array&quot;"/>
+            <assign variable="didSwap" expression="true"/>
+            <while expression="didSwap">
+                <assign variable="didSwap" expression="false"/>
+                <for variable="k" start="0" end="n-2" direction="inc" step="1">
+                    <if expression="Array[k] &gt; Array[k+1]">
+                        <then>
+                            <assign variable="didSwap" expression="true"/>
+                            <call expression="swap(Array[k],Array[k+1])"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </while>
+            <output expression="Array" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

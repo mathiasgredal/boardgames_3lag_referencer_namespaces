@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 2.22.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="3250" height="5150">
+	<rect x="0" y="0" width="3250" height="5150" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1900,200 1900,325"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1900,4875 1900,4936"/>
+		<polygon fill="#404040" stroke="none" points="1900,4950 1913,4925 1886,4925"/>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 1800,100 A 50,50 0 0,0 1800,200 L 2000,200 A 50,50 0 0,0 2000,100 Z"/>
+			<text x="1900" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="1900" dy="50" unicode-bidi="embed">Start</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 1800,4950 A 50,50 0 0,0 1800,5050 L 2000,5050 A 50,50 0 0,0 2000,4950 Z"/>
+			<text x="1900" y="4965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="1900" dy="50" unicode-bidi="embed">End</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1900,325 1900,436"/>
+			<polygon fill="#404040" stroke="none" points="1900,450 1913,425 1886,425"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1900,550 1900,611"/>
+			<polygon fill="#404040" stroke="none" points="1900,625 1913,600 1886,600"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1900,725 1900,786"/>
+			<polygon fill="#404040" stroke="none" points="1900,800 1913,775 1886,775"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1900,900 1900,961"/>
+			<polygon fill="#404040" stroke="none" points="1900,975 1913,950 1886,950"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1900,4700 1900,4761"/>
+			<polygon fill="#404040" stroke="none" points="1900,4775 1913,4750 1886,4750"/>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="6,12" points="1900,325 2025,325"/>
+				<g>
+					<path fill="#FFFFFF" stroke="#606060" stroke-width="3" stroke-dasharray="6,6" d="M 2025,275 L 2025,375 L 2625,375 L 2625,275 Z"/>
+					<text x="2325" y="290" fill="#606060" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="2325" dy="50" unicode-bidi="embed">Array argument by reference</tspan>
+					</text>
+				</g>
+			</g>
+			<g>
+				<path fill="#D0E0FF" stroke="#7080A0" stroke-width="3" stroke-dasharray="none" d="M 1750,450 L 1700,550 L 2050,550 L 2100,450 Z"/>
+				<text x="1900" y="465" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1900" dy="50" unicode-bidi="embed">Input Array</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0E0FF" stroke="#7080A0" stroke-width="3" stroke-dasharray="none" d="M 1775,625 L 1725,725 L 2025,725 L 2075,625 Z"/>
+				<text x="1900" y="640" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1900" dy="50" unicode-bidi="embed">Input left</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0E0FF" stroke="#7080A0" stroke-width="3" stroke-dasharray="none" d="M 1775,800 L 1725,900 L 2025,900 L 2075,800 Z"/>
+				<text x="1900" y="815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1900" dy="50" unicode-bidi="embed">Input right</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2100,1100 2400,1100 2400,1286"/>
+				<polygon fill="#404040" stroke="none" points="2400,1300 2413,1275 2386,1275"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2400,1900 2400,4675 1938,4675"/>
+				<polygon fill="#404040" stroke="none" points="1925,4675 1949,4688 1949,4661"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1700,1100 525,1100 525,1286"/>
+				<polygon fill="#404040" stroke="none" points="525,1300 538,1275 511,1275"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,4575 525,4675 1861,4675"/>
+				<polygon fill="#404040" stroke="none" points="1875,4675 1850,4661 1850,4688"/>
+				<g>
+					<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 1900,975 L 1675,1100 L 1900,1225 L 2125,1100 Z"/>
+					<text x="1900" y="1065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="1900" dy="50" unicode-bidi="embed">right - left &lt; 2</tspan>
+					</text>
+				</g>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2675,1450 2825,1450 2825,1661"/>
+					<polygon fill="#404040" stroke="none" points="2825,1675 2838,1650 2811,1650"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2825,1775 2825,1875 2438,1875"/>
+					<polygon fill="#404040" stroke="none" points="2425,1875 2449,1888 2449,1861"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="2125,1450 1950,1450 1950,1875 2361,1875"/>
+					<polygon fill="#404040" stroke="none" points="2375,1875 2350,1861 2350,1888"/>
+					<g>
+						<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 2400,1300 L 2100,1450 L 2400,1600 L 2700,1450 Z"/>
+						<text x="2400" y="1415" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="2400" dy="50" unicode-bidi="embed">Array[left] &gt; Array[right]</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 2500,1675 L 2500,1775 L 3150,1775 L 3150,1675 Z"/>
+						<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="2525,1675 2525,1775"/>
+						<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="3125,1675 3125,1775"/>
+						<text x="2825" y="1690" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="2825" dy="50" unicode-bidi="embed">swap(Array[left],Array[right])</tspan>
+						</text>
+					</g>
+					<g>
+					</g>
+					<ellipse cx="2400" cy="1875" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+					<text x="2775" y="1365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="2775" dy="50" unicode-bidi="embed">True</tspan>
+					</text>
+					<text x="2012" y="1365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="2012" dy="50" unicode-bidi="embed">False</tspan>
+					</text>
+				</g>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1400 525,1461"/>
+					<polygon fill="#404040" stroke="none" points="525,1475 538,1450 511,1450"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1575 525,1636"/>
+					<polygon fill="#404040" stroke="none" points="525,1650 538,1625 511,1625"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1750 525,1836"/>
+					<polygon fill="#404040" stroke="none" points="525,1850 538,1825 511,1825"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,1950 525,3236"/>
+					<polygon fill="#404040" stroke="none" points="525,3250 538,3225 511,3225"/>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="525,3850 525,3911"/>
+					<polygon fill="#404040" stroke="none" points="525,3925 538,3900 511,3900"/>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 325,1300 L 325,1400 L 725,1400 L 725,1300 Z"/>
+						<text x="525" y="1315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="525" dy="50" unicode-bidi="embed">pivotIndex = right</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 250,1475 L 250,1575 L 800,1575 L 800,1475 Z"/>
+						<text x="525" y="1490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="525" dy="50" unicode-bidi="embed">pivot = Array[pivotIndex]</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 375,1650 L 375,1750 L 675,1750 L 675,1650 Z"/>
+						<text x="525" y="1665" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="525" dy="50" unicode-bidi="embed">n = left</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,1900 1200,1900 1200,2011"/>
+						<polygon fill="#404040" stroke="none" points="1200,2025 1213,2000 1186,2000"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1200,3100 1200,3175 575,3175 575,1963"/>
+						<polygon fill="#404040" stroke="none" points="575,1950 561,1974 588,1974"/>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1400,2150 1550,2150 1550,2336"/>
+							<polygon fill="#404040" stroke="none" points="1550,2350 1563,2325 1536,2325"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1550,2975 1550,3075 1238,3075"/>
+							<polygon fill="#404040" stroke="none" points="1225,3075 1249,3088 1249,3061"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1000,2150 825,2150 825,2336"/>
+							<polygon fill="#404040" stroke="none" points="825,2350 838,2325 811,2325"/>
+							<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="825,2450 825,3075 1161,3075"/>
+							<polygon fill="#404040" stroke="none" points="1175,3075 1150,3061 1150,3088"/>
+							<g>
+								<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 1200,2025 L 975,2150 L 1200,2275 L 1425,2150 Z"/>
+								<text x="1200" y="2115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1200" dy="50" unicode-bidi="embed">Array[n] &lt; pivot</tspan>
+								</text>
+							</g>
+							<g>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1550,2450 1550,2511"/>
+								<polygon fill="#404040" stroke="none" points="1550,2525 1563,2500 1536,2500"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1550,2625 1550,2686"/>
+								<polygon fill="#404040" stroke="none" points="1550,2700 1563,2675 1536,2675"/>
+								<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1550,2800 1550,2861"/>
+								<polygon fill="#404040" stroke="none" points="1550,2875 1563,2850 1536,2850"/>
+								<g>
+									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1250,2350 L 1250,2450 L 1850,2450 L 1850,2350 Z"/>
+									<text x="1550" y="2365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="1550" dy="50" unicode-bidi="embed">Array[pivotIndex] = Array[n]</tspan>
+									</text>
+								</g>
+								<g>
+									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1275,2525 L 1275,2625 L 1825,2625 L 1825,2525 Z"/>
+									<text x="1550" y="2540" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="1550" dy="50" unicode-bidi="embed">pivotIndex = pivotIndex-1</tspan>
+									</text>
+								</g>
+								<g>
+									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1250,2700 L 1250,2800 L 1850,2800 L 1850,2700 Z"/>
+									<text x="1550" y="2715" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="1550" dy="50" unicode-bidi="embed">Array[n] = Array[pivotIndex]</tspan>
+									</text>
+								</g>
+								<g>
+									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 1275,2875 L 1275,2975 L 1825,2975 L 1825,2875 Z"/>
+									<text x="1550" y="2890" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="1550" dy="50" unicode-bidi="embed">Array[pivotIndex] = pivot</tspan>
+									</text>
+								</g>
+							</g>
+							<g>
+								<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 675,2350 L 675,2450 L 975,2450 L 975,2350 Z"/>
+								<text x="825" y="2365" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="825" dy="50" unicode-bidi="embed">n = n+1</tspan>
+								</text>
+							</g>
+							<ellipse cx="1200" cy="3075" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+							<text x="1500" y="2065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1500" dy="50" unicode-bidi="embed">True</tspan>
+							</text>
+							<text x="887" y="2065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="887" dy="50" unicode-bidi="embed">False</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 350,1850 L 300,1900 L 350,1950 L 700,1950 L 750,1900 L 700,1850 Z"/>
+							<text x="525" y="1865" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="525" dy="50" unicode-bidi="embed">n &lt; pivotIndex</tspan>
+							</text>
+						</g>
+						<text x="825" y="1815" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="825" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="437" y="1965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="437" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="750,3375 900,3375 900,3561"/>
+						<polygon fill="#404040" stroke="none" points="900,3575 913,3550 886,3550"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="900,3725 900,3825 563,3825"/>
+						<polygon fill="#404040" stroke="none" points="550,3825 574,3838 574,3811"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="300,3375 125,3375 125,3825 486,3825"/>
+						<polygon fill="#404040" stroke="none" points="500,3825 475,3811 475,3838"/>
+						<g>
+							<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 525,3250 L 275,3375 L 525,3500 L 775,3375 Z"/>
+							<text x="525" y="3340" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="525" dy="50" unicode-bidi="embed">left &lt; pivotIndex-1</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 650,3575 L 650,3725 L 1150,3725 L 1150,3575 Z"/>
+							<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="675,3575 675,3725"/>
+							<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="1125,3575 1125,3725"/>
+							<text x="900" y="3590" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="900" dy="50" unicode-bidi="embed">Quicksort(Array,left,</tspan>
+								<tspan x="900" dy="50" unicode-bidi="embed">pivotIndex-1)</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="525" cy="3825" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+						<text x="850" y="3290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="850" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="187" y="3290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="187" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="775,4075 925,4075 925,4286"/>
+						<polygon fill="#404040" stroke="none" points="925,4300 938,4275 911,4275"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="925,4450 925,4550 563,4550"/>
+						<polygon fill="#404040" stroke="none" points="550,4550 574,4563 574,4536"/>
+						<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="275,4075 100,4075 100,4550 486,4550"/>
+						<polygon fill="#404040" stroke="none" points="500,4550 475,4536 475,4563"/>
+						<g>
+							<path fill="#FFD0D0" stroke="#A07070" stroke-width="3" stroke-dasharray="none" d="M 525,3925 L 250,4075 L 525,4225 L 800,4075 Z"/>
+							<text x="525" y="4040" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="525" dy="50" unicode-bidi="embed">right &gt; pivotIndex+1</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#F0D0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 600,4300 L 600,4450 L 1250,4450 L 1250,4300 Z"/>
+							<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="625,4300 625,4450"/>
+							<polyline fill="none" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" points="1225,4300 1225,4450"/>
+							<text x="925" y="4315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="925" dy="50" unicode-bidi="embed">Quicksort(Array,pivotIndex</tspan>
+								<tspan x="925" dy="50" unicode-bidi="embed">+1,right)</tspan>
+							</text>
+						</g>
+						<g>
+						</g>
+						<ellipse cx="525" cy="4550" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+						<text x="875" y="3990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="875" dy="50" unicode-bidi="embed">True</tspan>
+						</text>
+						<text x="162" y="3990" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="162" dy="50" unicode-bidi="embed">False</tspan>
+						</text>
+					</g>
+				</g>
+				<ellipse cx="1900" cy="4675" rx="25" ry="25" fill="#FFD0D0" stroke="#A07070" stroke-width="3"/>
+				<text x="2200" y="1015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="2200" dy="50" unicode-bidi="embed">True</tspan>
+				</text>
+				<text x="1587" y="1015" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1587" dy="50" unicode-bidi="embed">False</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 1750,4775 L 1700,4875 L 2050,4875 L 2100,4775 Z"/>
+				<text x="1900" y="4790" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="1900" dy="50" unicode-bidi="embed">Output Array</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

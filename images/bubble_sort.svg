@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 2.22.1 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="2542" height="3410">
+	<rect x="0" y="0" width="2542" height="3410" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="403,248 403,323"/>
+		<polygon fill="#404040" stroke="none" points="403,341 420,310 385,310"/>
+		<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="403,3069 403,3144"/>
+		<polygon fill="#404040" stroke="none" points="403,3162 420,3131 385,3131"/>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="4" stroke-dasharray="none" d="M 279,124 A 62,62 0 0,0 279,248 L 527,248 A 62,62 0 0,0 527,124 Z"/>
+			<text x="403" y="142" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="403" dy="62" unicode-bidi="embed">Start</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="4" stroke-dasharray="none" d="M 279,3162 A 62,62 0 0,0 279,3286 L 527,3286 A 62,62 0 0,0 527,3162 Z"/>
+			<text x="403" y="3180" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="403" dy="62" unicode-bidi="embed">End</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="403,465 403,540"/>
+			<polygon fill="#404040" stroke="none" points="403,558 420,527 385,527"/>
+			<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="403,682 403,757"/>
+			<polygon fill="#404040" stroke="none" points="403,775 420,744 385,744"/>
+			<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="403,899 403,1005"/>
+			<polygon fill="#404040" stroke="none" points="403,1023 420,992 385,992"/>
+			<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="403,1147 403,2927"/>
+			<polygon fill="#404040" stroke="none" points="403,2945 420,2914 385,2914"/>
+			<g>
+				<path fill="#D0E0FF" stroke="#7080A0" stroke-width="4" stroke-dasharray="none" d="M 217,341 L 155,465 L 589,465 L 651,341 Z"/>
+				<text x="403" y="359" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="403" dy="62" unicode-bidi="embed">Input Array</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="4" stroke-dasharray="none" d="M 124,558 L 124,682 L 682,682 L 682,558 Z"/>
+				<text x="403" y="576" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="403" dy="62" unicode-bidi="embed">n = &quot;length of Array&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="4" stroke-dasharray="none" d="M 186,775 L 186,899 L 620,899 L 620,775 Z"/>
+				<text x="403" y="793" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="403" dy="62" unicode-bidi="embed">didSwap = true</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="620,1085 837,1085 837,1222"/>
+				<polygon fill="#404040" stroke="none" points="837,1240 854,1209 819,1209"/>
+				<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="837,1612 837,2852 465,2852 465,1164"/>
+				<polygon fill="#404040" stroke="none" points="465,1147 447,1177 482,1177"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="837,1364 837,1470"/>
+					<polygon fill="#404040" stroke="none" points="837,1488 854,1457 819,1457"/>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="4" stroke-dasharray="none" d="M 589,1240 L 589,1364 L 1085,1364 L 1085,1240 Z"/>
+						<text x="837" y="1258" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="837" dy="62" unicode-bidi="embed">didSwap = false</tspan>
+						</text>
+					</g>
+					<g>
+						<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="1085,1550 1550,1550 1550,1687"/>
+						<polygon fill="#404040" stroke="none" points="1550,1705 1567,1674 1532,1674"/>
+						<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="1550,2666 1550,2759 899,2759 899,1629"/>
+						<polygon fill="#404040" stroke="none" points="899,1612 881,1642 916,1642"/>
+						<g>
+							<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="1860,1891 2046,1891 2046,2152"/>
+							<polygon fill="#404040" stroke="none" points="2046,2170 2063,2139 2028,2139"/>
+							<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="2046,2511 2046,2635 1598,2635"/>
+							<polygon fill="#404040" stroke="none" points="1581,2635 1611,2652 1611,2617"/>
+							<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="1240,1891 1023,1891 1023,2635 1501,2635"/>
+							<polygon fill="#404040" stroke="none" points="1519,2635 1488,2617 1488,2652"/>
+							<g>
+								<path fill="#FFD0D0" stroke="#A07070" stroke-width="4" stroke-dasharray="none" d="M 1550,1705 L 1209,1891 L 1550,2077 L 1891,1891 Z"/>
+								<text x="1550" y="1847" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+									<tspan x="1550" dy="62" unicode-bidi="embed">Array[k] &gt; Array[k+1]</tspan>
+								</text>
+							</g>
+							<g>
+								<polyline fill="none" stroke="#404040" stroke-width="8" stroke-dasharray="none" points="2046,2294 2046,2369"/>
+								<polygon fill="#404040" stroke="none" points="2046,2387 2063,2356 2028,2356"/>
+								<g>
+									<path fill="#FFFFD0" stroke="#A0A070" stroke-width="4" stroke-dasharray="none" d="M 1829,2170 L 1829,2294 L 2263,2294 L 2263,2170 Z"/>
+									<text x="2046" y="2188" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="2046" dy="62" unicode-bidi="embed">didSwap = true</tspan>
+									</text>
+								</g>
+								<g>
+									<path fill="#F0D0FF" stroke="#9070A0" stroke-width="4" stroke-dasharray="none" d="M 1674,2387 L 1674,2511 L 2418,2511 L 2418,2387 Z"/>
+									<polyline fill="none" stroke="#9070A0" stroke-width="4" stroke-dasharray="none" points="1705,2387 1705,2511"/>
+									<polyline fill="none" stroke="#9070A0" stroke-width="4" stroke-dasharray="none" points="2387,2387 2387,2511"/>
+									<text x="2046" y="2405" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+										<tspan x="2046" dy="62" unicode-bidi="embed">swap(Array[k],Array[k+1])</tspan>
+									</text>
+								</g>
+							</g>
+							<g>
+							</g>
+							<ellipse cx="1550" cy="2635" rx="31" ry="31" fill="#FFD0D0" stroke="#A07070" stroke-width="4"/>
+							<text x="1984" y="1785" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1984" dy="62" unicode-bidi="embed">True</tspan>
+							</text>
+							<text x="1100" y="1785" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="1100" dy="62" unicode-bidi="embed">False</tspan>
+							</text>
+						</g>
+						<g>
+							<path fill="#FFE0A0" stroke="#A08040" stroke-width="4" stroke-dasharray="none" d="M 651,1488 L 589,1550 L 651,1612 L 1023,1612 L 1085,1550 L 1023,1488 Z"/>
+							<text x="837" y="1506" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+								<tspan x="837" dy="62" unicode-bidi="embed">k = 0 to n-2</tspan>
+							</text>
+						</g>
+						<text x="1178" y="1444" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1178" dy="62" unicode-bidi="embed">Next</tspan>
+						</text>
+						<text x="728" y="1630" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="728" dy="62" unicode-bidi="embed">Done</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="4" stroke-dasharray="none" d="M 248,1023 L 186,1085 L 248,1147 L 558,1147 L 620,1085 L 558,1023 Z"/>
+					<text x="403" y="1041" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="403" dy="62" unicode-bidi="embed">didSwap</tspan>
+					</text>
+				</g>
+				<text x="713" y="979" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="713" dy="62" unicode-bidi="embed">True</tspan>
+				</text>
+				<text x="294" y="1165" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="294" dy="62" unicode-bidi="embed">False</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="4" stroke-dasharray="none" d="M 217,2945 L 155,3069 L 589,3069 L 651,2945 Z"/>
+				<text x="403" y="2963" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="403" dy="62" unicode-bidi="embed">Output Array</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

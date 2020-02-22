@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jacs.zbc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-02-06 12:38:59 "/>
+        <attribute name="created" value="amFjcy56YmM7WkJDLVAtSkFDUzE7MjAyMC0wMi0wNjsiMTE6NTU6MDYgIjsyNjk4"/>
+        <attribute name="edited" value="amFjcy56YmM7WkJDLVAtSkFDUzE7MjAyMC0wMi0wNjsiMTI6Mzg6NTkgIjsyOzI4MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="Start" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="Array"/>
+            <assign variable="n" expression="&quot;length of Array&quot;"/>
+            <for variable="i" start="0" end="n-2" direction="inc" step="1">
+                <assign variable="indexMin" expression="i"/>
+                <for variable="k" start="i+1" end="n-1" direction="inc" step="1">
+                    <if expression="Array[k] &lt; Array[indexMin]">
+                        <then>
+                            <assign variable="indexMin" expression="k"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+                <call expression="swap(Array[indexMin],Array[i])"/>
+            </for>
+            <output expression="Array" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

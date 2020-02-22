@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jacs.zbc"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-02-10 10:00:12 "/>
+        <attribute name="created" value="amFjcy56YmM7WkJDLVAtSkFDUzE7MjAyMC0wMi0wNjsiMTE6NTU6MDYgIjsyNjk4"/>
+        <attribute name="edited" value="amFjcy56YmM7WkJDLVAtSkFDUzE7MjAyMC0wMi0wNzsiMDE6MjM6MjkgIjsxNTsyODU5"/>
+        <attribute name="edited" value="Y2h1YmI7Q0hVQkJZLUxPVkU7MjAyMC0wMi0xMDsiMTA6MDA6MTIgIjs0OzI1OTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body/>
+    </function>
+    <function name="Start" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Array argument by reference"/>
+            <input variable="Array"/>
+            <input variable="left"/>
+            <input variable="right"/>
+            <if expression="right - left &lt; 2">
+                <then>
+                    <if expression="Array[left] &gt; Array[right]">
+                        <then>
+                            <call expression="swap(Array[left],Array[right])"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="pivotIndex" expression="right"/>
+                    <assign variable="pivot" expression="Array[pivotIndex]"/>
+                    <assign variable="n" expression="left"/>
+                    <while expression="n &lt; pivotIndex">
+                        <if expression="Array[n] &lt; pivot">
+                            <then>
+                                <assign variable="Array[pivotIndex]" expression="Array[n]"/>
+                                <assign variable="pivotIndex" expression="pivotIndex-1"/>
+                                <assign variable="Array[n]" expression="Array[pivotIndex]"/>
+                                <assign variable="Array[pivotIndex]" expression="pivot"/>
+                            </then>
+                            <else>
+                                <assign variable="n" expression="n+1"/>
+                            </else>
+                        </if>
+                    </while>
+                    <if expression="left &lt; pivotIndex-1">
+                        <then>
+                            <call expression="Quicksort(Array,left,pivotIndex-1)"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="right &gt; pivotIndex+1">
+                        <then>
+                            <call expression="Quicksort(Array,pivotIndex+1,right)"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+            <output expression="Array" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
