@@ -4,10 +4,17 @@
 #include <string>
 #include <vector>
 
-namespace data
-{
+namespace data {
+class BoardGame {
+public:
+    int rank;
+    std::string title;
+    float avgRating;
+    float geekRating;
+    int numVoters;
+};
 
-std::vector<std::string> get_games_from_file();
+std::vector<BoardGame> get_games_from_file();
 
 }
 

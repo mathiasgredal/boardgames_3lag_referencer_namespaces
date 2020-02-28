@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    vector<string> games;
+    vector<data::BoardGame> games;
 
     try {
         games = data::get_games_from_file();

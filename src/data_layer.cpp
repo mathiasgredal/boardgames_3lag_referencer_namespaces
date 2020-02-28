@@ -4,11 +4,10 @@
 
 namespace data {
 
-std::vector<std::string> get_games_from_file()
+std::vector<BoardGame> get_games_from_file()
 {
     using namespace std;
-    vector<string> games;
-    vector<int> ranking;
+    vector<BoardGame> boardGames;
     string line, word;
     int current = -1;
     int next = 0;
@@ -23,10 +22,13 @@ std::vector<std::string> get_games_from_file()
 
     // Skip first line (titles). Then read every line after.
     getline(file, line);
+
     while (getline(file, line)) {
         // Initialize current index in string and find first delimiter ";"
         current = 0;
         next = line.find(';');
+
+        BoardGame boardGame = BoardGame();
 
         for (int i = 0; next > 0; i++) {
             // Get the next word and update indices to next word
@@ -37,16 +39,28 @@ std::vector<std::string> get_games_from_file()
             // Push current word to corresponding vector
             switch (i) {
             case 0:
-                ranking.push_back(stoi(word)); // stoi is String TO Int
+                boardGame.rank = stoi(word);
+                //ranking.push_back(s); // stoi is String TO Int
                 break;
             case 1:
-                games.push_back(word);
+                boardGame.title = word;
+                break;
+            case 2:
+                boardGame.avgRating = stof(word);
+                break;
+            case 3:
+                boardGame.geekRating = stof(word);
+                break;
+            case 4:
+                boardGame.numVoters = stoi(word);
                 break;
             }
         }
+
+        boardGames.push_back(boardGame);
     }
 
-    return games;
+    return boardGames;
 }
 
 }
