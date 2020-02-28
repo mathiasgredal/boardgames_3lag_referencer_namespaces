@@ -11,7 +11,7 @@ int main()
 
     try {
         games = data::get_games_from_file();
-        presentation::display_best(games[0]);
+        presentation::display_all(games);
     } catch (exception& e) {
         cerr << e.what() << endl;
     }
