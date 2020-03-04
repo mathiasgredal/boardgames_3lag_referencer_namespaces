@@ -10,12 +10,16 @@ void display_best(std::string game)
 
 void display_all(const std::vector<data::BoardGame>& input)
 {
-    for (auto& boardgame : input) {
-        std::cout << boardgame.avgRating << std::endl;
+    for (const data::BoardGame& boardgame : input) {
+        std::cout << boardgame.rank << ": " << boardgame.title << " " << boardgame.avgRating << " " << boardgame.geekRating << " " << boardgame.numVoters << std::endl;
     }
-    //    std::for_each(input.begin(), input.end(), [](const std::string& item) {
-    //        std::cout << item << std::endl;
-    //    });
+}
+
+void compare_avg_geek(const std::vector<data::BoardGame>& input)
+{
+    for (size_t i = 0; i < input.size(); i++) {
+        std::cout << input.at(i).rank << ": " << input.at(i).title << " - Geek: " << input.at(i).avgRating << ", Bayesian: " << logic::bayesianAvg(input.at(i).numVoters, input.at(i).avgRating) << std::endl;
+    }
 }
 
 }

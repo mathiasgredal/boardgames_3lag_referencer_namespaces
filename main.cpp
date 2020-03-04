@@ -1,4 +1,5 @@
 #include "data_layer.h"
+#include "logic_layer.h"
 #include "presentation_layer.h"
 #include <iostream>
 #include <string>
@@ -11,7 +12,9 @@ int main()
 
     try {
         games = data::get_games_from_file();
-        presentation::display_all(games);
+
+        //logic::reverseSame(games);
+        presentation::compare_avg_geek(games);
     } catch (exception& e) {
         cerr << e.what() << endl;
     }
