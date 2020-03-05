@@ -14,14 +14,10 @@ void reverseSame(std::vector<data::BoardGame>& games);
 ///
 float bayesianAvg(int numVoters, float avgRating, float C = 2000, float m = 5.5f);
 
-enum SortType { Avg,
-    Geek,
-    Bayesian };
-
-float minRating(const std::vector<data::BoardGame>& games, SortType type);
-float maxRating(const std::vector<data::BoardGame>& games, SortType type);
-float medianRating(const std::vector<data::BoardGame>& games, SortType type);
-float avgRating(const std::vector<data::BoardGame>& games, SortType type);
+float minVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
+float maxVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
+float medianVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
+float avgVal(const std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
 }
 
 #endif // LOGIC_LAYER_H

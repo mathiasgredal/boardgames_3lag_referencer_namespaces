@@ -28,78 +28,49 @@ float bayesianAvg(int numVoters, float avgRating, float C, float m)
     return (C * m + avgRating * numVoters) / (C + numVoters);
 }
 
-void sortList(std::vector<data::BoardGame>& games, SortType type)
+void sortList(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam)
 {
-    switch (type) {
-    case logic::Avg:
-        std::sort(games.begin(), games.end(), [](const data::BoardGame& lhs, const data::BoardGame& rhs) {
-            return lhs.avgRating < rhs.avgRating;
-        });
-        break;
-    case logic::Geek:
-        std::sort(games.begin(), games.end(), [](const data::BoardGame& lhs, const data::BoardGame& rhs) {
-            return lhs.geekRating < rhs.geekRating;
-        });
-        break;
-    case logic::Bayesian:
-        std::sort(games.begin(), games.end(), [](const data::BoardGame& lhs, const data::BoardGame& rhs) {
-            return bayesianAvg(lhs.numVoters, lhs.avgRating) < bayesianAvg(rhs.numVoters, rhs.avgRating);
-        });
-        break;
-    }
+    std::sort(games.begin(), games.end(), [&sortParam](const data::BoardGame& lhs, const data::BoardGame& rhs) {
+        return lhs.*sortParam < rhs.*sortParam;
+    });
 }
 
-float minRating(std::vector<data::BoardGame> games, SortType type)
+float minVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam)
 {
-    sortList(games, type);
+    sortList(games, sortParam);
 
-    switch (type) {
-    case logic::Avg:
-        return games.front().avgRating;
-    case logic::Geek:
-        return games.front().geekRating;
-    case logic::Bayesian:
-        return bayesianAvg(games.front().numVoters, games.front().avgRating);
-    }
+    return games.front().*sortParam;
 }
 
-float maxRating(std::vector<data::BoardGame> games, SortType type)
+float maxVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam)
 {
-    sortList(games, type);
+    sortList(games, sortParam);
 
-    switch (type) {
-    case logic::Avg:
-        return games.back().avgRating;
-    case logic::Geek:
-        return games.back().geekRating;
-    case logic::Bayesian:
-        return bayesianAvg(games.back().numVoters, games.back().avgRating);
-    }
+    return games.back().*sortParam;
 }
 
-float medianRating(std::vector<data::BoardGame> games, SortType type)
+float medianVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam)
 {
-    sortList(games, type);
+    sortList(games, sortParam);
 
-    if (games.size() % 2) {
+    if (games.size() % 2)
         // Even number, we should average the 2 middle numbers
+        return (games.at(games.size() / 2).*sortParam + games.at(games.size() / 2 - 1).*sortParam) / 2;
 
-    } else {
+    else
         // Odd number, we should just return the middle number
-    }
-
-    switch (type) {
-    case logic::Avg:
-        return games.back().avgRating;
-    case logic::Geek:
-        return games.back().geekRating;
-    case logic::Bayesian:
-        return bayesianAvg(games.back().numVoters, games.back().avgRating);
-    }
+        return games.at(games.size() / 2).*sortParam;
 }
 
-float avgRating(const std::vector<data::BoardGame>& games, SortType type)
+float avgVal(const std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam)
 {
+    float sum = 0;
+
+    for (const auto& game : games) {
+        sum += game.*sortParam;
+    }
+
+    return sum / games.size();
 }
 
 }

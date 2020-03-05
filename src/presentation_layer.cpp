@@ -22,4 +22,12 @@ void compare_avg_geek(const std::vector<data::BoardGame>& input)
     }
 }
 
+void display_statistics(std::vector<data::BoardGame> input, float data::BoardGame::*type)
+{
+    std::cout << "Min: " << logic::minVal(input, type) << std::endl;
+    std::cout << "Max: " << logic::maxVal(input, type) << std::endl;
+    std::cout << "Media: " << logic::medianVal(input, type) << std::endl;
+    std::cout << "Avg: " << logic::avgVal(input, type) << std::endl;
+}
+
 }

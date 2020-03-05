@@ -12,9 +12,10 @@ int main()
 
     try {
         games = data::get_games_from_file();
-
         //logic::reverseSame(games);
-        presentation::compare_avg_geek(games);
+
+        presentation::display_all(games);
+        presentation::display_statistics(games, &data::BoardGame::geekRating);
     } catch (exception& e) {
         cerr << e.what() << endl;
     }

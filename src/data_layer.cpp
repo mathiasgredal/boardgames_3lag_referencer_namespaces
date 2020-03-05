@@ -47,7 +47,7 @@ std::vector<BoardGame> get_games_from_file()
                 boardGame.geekRating = stof(word);
                 break;
             case 4:
-                boardGame.numVoters = stoi(word);
+                boardGame.numVoters = stof(word);
                 break;
             }
 

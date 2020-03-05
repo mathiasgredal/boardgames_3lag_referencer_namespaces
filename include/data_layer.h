@@ -12,7 +12,7 @@ public:
     std::string title;
     float avgRating;
     float geekRating;
-    int numVoters;
+    float numVoters;
 };
 
 std::vector<BoardGame> get_games_from_file();
