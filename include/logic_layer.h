@@ -18,6 +18,11 @@ float minVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortPa
 float maxVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
 float medianVal(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
 float avgVal(const std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
+
+void selectionSort(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
+void bubbleSort(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam);
+void mergeSort(std::vector<data::BoardGame>& games, int left, int right, float data::BoardGame::*sortParam);
+
 }
 
 #endif // LOGIC_LAYER_H

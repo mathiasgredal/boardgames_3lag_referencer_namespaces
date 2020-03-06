@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+
 using namespace std;
 
 int main()
@@ -12,10 +13,12 @@ int main()
 
     try {
         games = data::get_games_from_file();
-        //logic::reverseSame(games);
 
+        //logic::reverseSame(games);
+        logic::mergeSort(games, 0, games.size() - 1, &data::BoardGame::numVoters);
         presentation::display_all(games);
-        presentation::display_statistics(games, &data::BoardGame::geekRating);
+        //presentation::display_statistics(games, &data::BoardGame::geekRating);
+
     } catch (exception& e) {
         cerr << e.what() << endl;
     }

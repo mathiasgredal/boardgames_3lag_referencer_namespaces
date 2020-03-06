@@ -28,6 +28,74 @@ float bayesianAvg(int numVoters, float avgRating, float C, float m)
     return (C * m + avgRating * numVoters) / (C + numVoters);
 }
 
+void selectionSort(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam)
+{
+    int n = games.size();
+
+    for (int i = 0; i < n - 1; i++) {
+        int indexMin = i;
+
+        for (int k = i + 1; k < n; k++) {
+            if (games[k].*sortParam < games[indexMin].*sortParam)
+                indexMin = k;
+        }
+
+        std::swap(games[indexMin], games[i]);
+    }
+}
+
+void bubbleSort(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam)
+{
+    int n = games.size();
+    bool didSwap = true;
+
+    while (didSwap) {
+        didSwap = false;
+
+        for (int k = 0; k < n - 1; ++k) {
+            if (games[k].*sortParam > games[k + 1].*sortParam) {
+                didSwap = true;
+                std::swap(games[k], games[k + 1]);
+            }
+        }
+    }
+}
+
+// TODO: This is not working
+void mergeSort(std::vector<data::BoardGame>& games, int left, int right, float data::BoardGame::*sortParam)
+{
+    if (right - left < 2) {
+        if (games[left].*sortParam > games[right].*sortParam) {
+            std::swap(games[left], games[right]);
+            return;
+        }
+    } //
+    else {
+        int middle = (left + right) / 2;
+        mergeSort(games, left, middle, sortParam);
+        middle++;
+        mergeSort(games, middle, right, sortParam);
+
+        std::vector<data::BoardGame> sorted(games);
+
+        int i = left;
+        int k = middle;
+
+        for (int n = left; n < right; n++) {
+            if ((games[i].*sortParam < games[k].*sortParam or k > right) and i < middle) {
+                sorted[n] = games[k];
+                k++;
+            } //
+            else {
+                sorted[n] = games[i];
+                i++;
+            }
+        }
+
+        games = sorted;
+    }
+}
+
 void sortList(std::vector<data::BoardGame>& games, float data::BoardGame::*sortParam)
 {
     std::sort(games.begin(), games.end(), [&sortParam](const data::BoardGame& lhs, const data::BoardGame& rhs) {

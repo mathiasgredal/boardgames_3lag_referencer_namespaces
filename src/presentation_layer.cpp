@@ -26,7 +26,7 @@ void display_statistics(std::vector<data::BoardGame> input, float data::BoardGam
 {
     std::cout << "Min: " << logic::minVal(input, type) << std::endl;
     std::cout << "Max: " << logic::maxVal(input, type) << std::endl;
-    std::cout << "Media: " << logic::medianVal(input, type) << std::endl;
+    std::cout << "Median: " << logic::medianVal(input, type) << std::endl;
     std::cout << "Avg: " << logic::avgVal(input, type) << std::endl;
 }
 
